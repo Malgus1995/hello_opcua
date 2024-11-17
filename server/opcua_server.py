@@ -8,7 +8,7 @@ server = Server()
 server.set_endpoint("opc.tcp://localhost:4840/freeopcua/server/")
 
 # 네임스페이스 추가
-uri = "http://example.org"
+uri = "http://su_opcua_server.org"
 idx = server.register_namespace(uri)
 
 # 객체 생성
